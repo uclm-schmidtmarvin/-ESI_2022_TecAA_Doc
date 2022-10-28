@@ -1,0 +1,32 @@
+%-------------- Document Class --------------------
+\documentclass[11pt, a4paper]{article}
+
+%-------------- Headers --------------------
+\def\mytitle{Machine Learning Techniques (Grupo Bilingüe)\\Laboratory Portfolio}
+\def\mykeywords{}
+\def\myauthor{\textbf{Authors}:\\Raúl Barba Rojas (Raul.Barba@alu.uclm.es)\\Diego Guerrero Del Pozo (Diego.Guerrero@alu.uclm.es)\\Marvin Schmidt (Marvin.Schmidt@alu.uclm.es)}
+
+%--------------- Config -------------
+\input{main/config/package-preferences}
+\input{main/config/listing-preferences}
+\input{main/config/document-setup}
+
+
+%--------------- Document -------------
+\begin{document}
+
+% Insert Titles
+\maketitle
+
+% Insert written Chapters
+\input{main/chapters/introduction}	
+\input{main/chapters/task01}	
+\input{main/chapters/task02}	
+\input{main/chapters/task03}	
+
+
+% Insert Bibliography
+\bibliographystyle{ieeetr}
+\bibliography{references}
+		
+\end{document}
